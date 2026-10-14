@@ -1,0 +1,16 @@
+# depslib dependency file v1.0
+1791440879 source:c:\users\201\desktop\4tp\zlozonosc obliczeniowa\main.cpp
+	<iostream>
+	<chrono>
+	<vector>
+	<list>
+	<cstdlib>
+
+1791990840 source:c:\users\xxx\desktop\zlozonosc obliczeniowa\main.cpp
+	<iostream>
+	<chrono>
+	<vector>
+	<list>
+	<cstdlib>
+	<algorithm>
+
