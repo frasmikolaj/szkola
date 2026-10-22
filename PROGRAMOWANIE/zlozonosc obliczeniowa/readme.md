@@ -1,18 +1,18 @@
-\# Porównanie czasu działania struktur danych w C++
+# Porównanie czasu działania struktur danych w C++
 
 
 
-\## Opis projektu
+## Opis projektu
 
 
 
 Program służy do porównania czasu wykonywania podstawowych operacji na trzech strukturach danych w języku C++:
 
-\- `vector`
+- `vector`
 
-\- tablica
+- tablica
 
-\- `list`
+- `list`
 
 
 
@@ -20,27 +20,27 @@ Program generuje 100 000 liczb losowych, a następnie wykonuje na nich różne o
 
 
 
-\## Wykorzystane biblioteki
+## Wykorzystane biblioteki
 
 
 
-\- `iostream` – wyświetlanie wyników w konsoli.
+- `iostream` – wyświetlanie wyników w konsoli.
 
-\- `chrono` – pomiar czasu wykonywania operacji.
+- `chrono` – pomiar czasu wykonywania operacji.
 
-\- `vector` – obsługa wektora.
+- `vector` – obsługa wektora.
 
-\- `list` – obsługa listy.
+- `list` – obsługa listy.
 
-\- `cstdlib` – generowanie liczb za pomocą `rand()`.
+- `cstdlib` – generowanie liczb za pomocą `rand()`.
 
-\- `algorithm` – sortowanie danych funkcją `sort()`.
+- `algorithm` – sortowanie danych funkcją `sort()`.
 
-\- `iterator` – przesuwanie iteratora za pomocą `advance()`.
+- `iterator` – przesuwanie iteratora za pomocą `advance()`.
 
 
 
-\## Działanie programu
+## Działanie programu
 
 
 
@@ -48,23 +48,23 @@ Program wykonuje następujące czynności:
 
 
 
-1\. Generuje 100 000 liczb losowych i zapisuje je w tablicy.
+1. Generuje 100 000 liczb losowych i zapisuje je w tablicy.
 
-2\. Kopiuje liczby do wektora, zwykłej tablicy oraz listy.
+2. Kopiuje liczby do wektora, zwykłej tablicy oraz listy.
 
-3\. Mierzy czas dodawania liczb do każdej struktury.
+3. Mierzy czas dodawania liczb do każdej struktury.
 
-4\. Sortuje liczby rosnąco i mierzy czas sortowania.
+4. Sortuje liczby rosnąco i mierzy czas sortowania.
 
-5\. Usuwa element znajdujący się na indeksie `50000` i mierzy czas usuwania.
+5. Usuwa element znajdujący się na indeksie `50000` i mierzy czas usuwania.
 
-6\. Wstawia liczbę `123` na indeksie `50000` i mierzy czas wstawiania.
+6. Wstawia liczbę `123` na indeksie `50000` i mierzy czas wstawiania.
 
-7\. Wyświetla wyniki w konsoli w mikrosekundach.
+7. Wyświetla wyniki w konsoli w mikrosekundach.
 
 
 
-\## Pomiar czasu
+## Pomiar czasu
 
 
 
@@ -80,33 +80,33 @@ Różnica między tymi wartościami określa czas wykonania operacji.
 
 
 
-\## Różnice między strukturami
+## Różnice między strukturami
 
 
 
-\- \*\*Vector\*\* – umożliwia szybki dostęp do elementów, ale wstawianie i usuwanie w środku wymaga przesuwania kolejnych elementów.
+- **Vector** – umożliwia szybki dostęp do elementów, ale wstawianie i usuwanie w środku wymaga przesuwania kolejnych elementów.
 
-\- \*\*Tablica\*\* – przechowuje elementy w pamięci w kolejnych miejscach. Wstawianie i usuwanie w środku wymaga przesuwania elementów.
+- **Tablica** – przechowuje elementy w pamięci w kolejnych miejscach. Wstawianie i usuwanie w środku wymaga przesuwania elementów.
 
-\- \*\*List\*\* – składa się z połączonych elementów. Wstawianie i usuwanie nie wymaga przesuwania pozostałych elementów, ale znalezienie odpowiedniej pozycji wymaga przejścia przez listę.
-
-
-
-\## Uruchomienie
+- **List** – składa się z połączonych elementów. Wstawianie i usuwanie nie wymaga przesuwania pozostałych elementów, ale znalezienie odpowiedniej pozycji wymaga przejścia przez listę.
 
 
 
-1\. Skopiuj kod do pliku `main.cpp`.
-
-2\. Skompiluj program przy użyciu kompilatora C++.
-
-3\. Uruchom program.
-
-4\. Odczytaj wyniki pomiarów wyświetlone w konsoli.
+## Uruchomienie
 
 
 
-\## Wnioski
+1. Skopiuj kod do pliku `main.cpp`.
+
+2. Skompiluj program przy użyciu kompilatora C++.
+
+3. Uruchom program.
+
+4. Odczytaj wyniki pomiarów wyświetlone w konsoli.
+
+
+
+## Wnioski
 
 
 
