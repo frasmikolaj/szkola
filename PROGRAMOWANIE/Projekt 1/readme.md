@@ -1,74 +1,44 @@
-🔐 Generator haseł i danych pracownika
+# WinFormsApp1 - Generator Haseł i Dane Pracownika
 
-<p align="center">
-<img src="https://img.shields.io/badge/C%23-Programowanie-68217A?style=for-the-badge&logo=csharp&logoColor=white" alt="C#"/>
-<img src="https://img.shields.io/badge/.NET-Windows%20Forms-512BD4?style=for-the-badge&logo=dotnet&logoColor=white" alt=".NET"/>
-<img src="https://img.shields.io/badge/IDE-Visual%20Studio-5C2D91?style=for-the-badge&logo=visualstudio&logoColor=white" alt="Visual Studio"/>
-</p>
+Prosta aplikacja desktopowa stworzona w języku **C#** z wykorzystaniem technologii **Windows Forms** w środowisku **Visual Studio**. Aplikacja umożliwia wprowadzanie danych pracownika (imię, nazwisko, stanowisko) oraz generowanie bezpiecznego, losowego hasła na podstawie wybranych kryteriów.
 
-📌 O projekcie
+## 🚀 Funkcjonalności
 
-Generator haseł i danych pracownika to aplikacja desktopowa napisana w języku C# z wykorzystaniem technologii Windows Forms (WinForms) w środowisku Visual Studio.
-
-Program umożliwia generowanie losowych haseł o określonej długości oraz wyświetlanie danych pracownika w oknie komunikatu.
-
-✨ Funkcjonalności
-Funkcja	Opis
-🔑 Generowanie haseł	Tworzenie losowego hasła o podanej długości.
-📏 Długość hasła	Możliwość określenia liczby znaków.
-🔠 Rodzaje znaków	Opcje dotyczące wielkich liter, cyfr i znaków specjalnych.
-💬 Wyświetlanie hasła	Prezentacja wygenerowanego hasła w oknie komunikatu.
-👤 Dane pracownika	Wyświetlanie imienia, nazwiska i stanowiska.
-🛠️ Technologie
-C# – język programowania.
-Windows Forms (WinForms) – tworzenie interfejsu graficznego.
-.NET – platforma uruchomieniowa.
-Visual Studio – środowisko programistyczne.
-🚀 Uruchomienie aplikacji
-Sklonuj repozytorium na swój komputer:
-git clone ADRES_REPOZYTORIUM
-
-Otwórz plik .sln w programie Visual Studio.
-Poczekaj na załadowanie projektu.
-Uruchom aplikację, naciskając F5 lub klikając Start.
-Wprowadź dane i skorzystaj z dostępnych funkcji.
-Wymagania: system Windows oraz Visual Studio z obsługą C# i Windows Forms. Wymagana wersja .NET zależy od konfiguracji projektu.
-⚙️ Jak działa generator?
-
-Generator wykorzystuje klasę Random do losowania znaków i budowania hasła w pętli for.
-
-W zależności od warunków w kodzie mogą być dodawane:
-
-Wielkie litery (A–Z)
-Małe litery (a–z)
-Cyfry (0–9)
-Znaki specjalne (!@#$%^&*()_+-=)
-
-Po wygenerowaniu hasło wyświetlane jest w oknie MessageBox.
-
-Dane pracownika pobierane są z pól tekstowych formularza i prezentowane w osobnym oknie komunikatu.
-
-📂 Struktura projektu
-WinFormsApp1/
-├── Form1.cs             # Logika aplikacji i obsługa zdarzeń
-├── Form1.Designer.cs    # Kod interfejsu graficznego
-├── Form1.resx           # Zasoby formularza
-├── Program.cs           # Punkt wejścia aplikacji
-└── WinFormsApp1.csproj  # Plik projektu
+* **Wprowadzanie danych pracownika:** Pola tekstowe na imię (`name`), nazwisko (`surname`) oraz stanowisko (`position`).
+* **Generator haseł (`btnGenerate`):**
+* Pobiera określoną długość hasła z pola `charCount`.
+* Pozwala na uwzględnienie wielkich liter (`smallChar` - *uwaga: nazwa kontrolki w kodzie odpowiada wielkim literom/kodom ASCII 65-90*).
+* Obsługuje dodawanie cyfr (`numbers`).
+* Obsługuje znaki specjalne (`specialChar` zdefiniowane jako `!@#$%^&*()_+-=`).
 
 
-Pliki mogą się nieznacznie różnić w zależności od konfiguracji projektu.
+* **Podsumowanie (`button2`):** Wyświetla okno dialogowe (`MessageBox`) ze wszystkimi wprowadzonymi danymi pracownika oraz wygenerowanym hasłem.
 
-🔧 Możliwe rozszerzenia
-Kopiowanie wygenerowanego hasła do schowka.
-Walidacja długości hasła i danych wejściowych.
-Poprawa losowania, aby uwzględniało wszystkie zaznaczone rodzaje znaków.
-Możliwość podglądu wygenerowanego hasła bez dodatkowego okna.
-Zastosowanie RandomNumberGenerator do bezpiecznego generowania haseł.
-👨‍💻 Autor
+---
 
-Projekt edukacyjny wykonany w języku C# w środowisku Visual Studio.
+## 🛠 Wymagania wstępne
 
-<p align="center">
-⭐ Jeśli projekt Ci się podoba, zostaw gwiazdkę na GitHubie!
-</p>
+Aby uruchomić i edytować projekt, potrzebujesz:
+
+* **Visual Studio** (zalecana wersja 2019 lub nowsza)
+* Zainstalowanego obciążenia **Programowanie aplikacji klasycznych dla platformy .NET** (*.NET desktop development*)
+* Platformy **.NET** (zależnie od konfiguracji projektu, np. .NET Framework lub .NET 6/7/8)
+
+---
+
+## 📥 Uruchomienie projektu
+
+1. Sklonuj repozytorium lub pobierz pliki projektu na swój komputer.
+2. Otwórz program **Visual Studio**.
+3. Wybierz **Otwórz projekt lub rozwiązanie** (*Open a project or solution*) i wskaż plik rozwiązania projektu (`.sln`) lub otwórz folder projektu.
+4. W Eksploratorze rozwiązań upewnij się, że projekt jest poprawnie załadowany.
+5. Naciśnij przycisk **Start** (zielona strzałka z napisem *Start* lub klawisz `F5`), aby skompilować i uruchomić aplikację.
+
+---
+
+## 💻 Struktura kodu
+
+Główna logika aplikacji znajduje się w pliku `Form1.cs`:
+
+* `btnGenerate_Click`: Odpowiada za algorytm generowania losowego ciągu znaków na podstawie ustawień zaznaczonych w kontrolkach `CheckBox` oraz liczby znaków z pola `charCount`.
+* `button2_Click`: Odpowiada za zebranie danych i wyświetlenie ich podsumowania.
