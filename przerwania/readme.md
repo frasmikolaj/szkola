@@ -2,17 +2,6 @@
 
 Prosty i wydajny projekt na mikrokontroler Arduino, który symuluje system sterowania ruchem (np. na wahadle lub skrzyżowaniu jednopasmowym) za pomocą czujników ruchu i przerwań sprzętowych.
 
----
-
-## 📋 Spis Treści
-* [Opis Projektu](#-opis-projektu)
-* [Schemat Podłączeń (Pinout)](#-schemat-podłączeń-pinout)
-* [Jak to działa?](#-jak-to-działa)
-* [Wymagania](#-wymagania)
-* [Instalacja i Uruchomienie](#-instalacja-i-uruchomienie)
-* [Autor](#-autor)
-
----
 
 ## 🚀 Opis Projektu
 Program obsługuje dwa kierunki ruchu. Każdy kierunek posiada własną parę diod (zieloną i czerwoną) oraz czujnik wykrywający ruch. Dzięki zastosowaniu **przerwań sprzętowych (`attachInterrupt`)**, mikrokontroler natychmiast reaguje na sygnały z czujników, co eliminuje opóźnienia wynikające z tradycyjnego odpytywania stanów pinów (`polling`).
