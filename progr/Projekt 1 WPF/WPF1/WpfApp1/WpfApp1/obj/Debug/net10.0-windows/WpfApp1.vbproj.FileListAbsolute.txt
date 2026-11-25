@@ -1,0 +1,42 @@
+C:\Users\201\Desktop\WGL\WPF1\WpfApp1\WpfApp1\obj\Debug\net10.0-windows\MainWindow.g.vb
+C:\Users\201\Desktop\WGL\WPF1\WpfApp1\WpfApp1\obj\Debug\net10.0-windows\Application.g.vb
+C:\Users\201\Desktop\WGL\WPF1\WpfApp1\WpfApp1\obj\Debug\net10.0-windows\WpfApp1_MarkupCompile.cache
+C:\Users\201\Desktop\WGL\WPF1\WpfApp1\WpfApp1\obj\Debug\net10.0-windows\WpfApp1_MarkupCompile.lref
+C:\Users\201\Desktop\WGL\WPF1\WpfApp1\WpfApp1\bin\Debug\net10.0-windows\WpfApp1.exe
+C:\Users\201\Desktop\WGL\WPF1\WpfApp1\WpfApp1\bin\Debug\net10.0-windows\WpfApp1.deps.json
+C:\Users\201\Desktop\WGL\WPF1\WpfApp1\WpfApp1\bin\Debug\net10.0-windows\WpfApp1.runtimeconfig.json
+C:\Users\201\Desktop\WGL\WPF1\WpfApp1\WpfApp1\bin\Debug\net10.0-windows\WpfApp1.dll
+C:\Users\201\Desktop\WGL\WPF1\WpfApp1\WpfApp1\bin\Debug\net10.0-windows\WpfApp1.pdb
+C:\Users\201\Desktop\WGL\WPF1\WpfApp1\WpfApp1\obj\Debug\net10.0-windows\MainWindow.baml
+C:\Users\201\Desktop\WGL\WPF1\WpfApp1\WpfApp1\obj\Debug\net10.0-windows\WpfApp1.g.resources
+C:\Users\201\Desktop\WGL\WPF1\WpfApp1\WpfApp1\obj\Debug\net10.0-windows\WpfApp1.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\201\Desktop\WGL\WPF1\WpfApp1\WpfApp1\obj\Debug\net10.0-windows\WpfApp1.AssemblyInfoInputs.cache
+C:\Users\201\Desktop\WGL\WPF1\WpfApp1\WpfApp1\obj\Debug\net10.0-windows\WpfApp1.AssemblyInfo.vb
+C:\Users\201\Desktop\WGL\WPF1\WpfApp1\WpfApp1\obj\Debug\net10.0-windows\WpfApp1.vbproj.CoreCompileInputs.cache
+C:\Users\201\Desktop\WGL\WPF1\WpfApp1\WpfApp1\obj\Debug\net10.0-windows\WpfApp1.dll
+C:\Users\201\Desktop\WGL\WPF1\WpfApp1\WpfApp1\obj\Debug\net10.0-windows\refint\WpfApp1.dll
+C:\Users\201\Desktop\WGL\WPF1\WpfApp1\WpfApp1\obj\Debug\net10.0-windows\WpfApp1.pdb
+C:\Users\201\Desktop\WGL\WPF1\WpfApp1\WpfApp1\obj\Debug\net10.0-windows\WpfApp1.genruntimeconfig.cache
+C:\Users\201\Desktop\WGL\WPF1\WpfApp1\WpfApp1\obj\Debug\net10.0-windows\ref\WpfApp1.dll
+C:\Users\201\Desktop\WGL\WPF1\WpfApp1\WpfApp1\obj\Debug\net10.0-windows\WpfApp1.vbproj.Up2Date
+C:\Users\201\Desktop\Projekt 1 WPF\WPF1\WpfApp1\WpfApp1\bin\Debug\net10.0-windows\WpfApp1.exe
+C:\Users\201\Desktop\Projekt 1 WPF\WPF1\WpfApp1\WpfApp1\bin\Debug\net10.0-windows\WpfApp1.deps.json
+C:\Users\201\Desktop\Projekt 1 WPF\WPF1\WpfApp1\WpfApp1\bin\Debug\net10.0-windows\WpfApp1.runtimeconfig.json
+C:\Users\201\Desktop\Projekt 1 WPF\WPF1\WpfApp1\WpfApp1\bin\Debug\net10.0-windows\WpfApp1.dll
+C:\Users\201\Desktop\Projekt 1 WPF\WPF1\WpfApp1\WpfApp1\bin\Debug\net10.0-windows\WpfApp1.pdb
+C:\Users\201\Desktop\Projekt 1 WPF\WPF1\WpfApp1\WpfApp1\obj\Debug\net10.0-windows\MainWindow.g.vb
+C:\Users\201\Desktop\Projekt 1 WPF\WPF1\WpfApp1\WpfApp1\obj\Debug\net10.0-windows\Application.g.vb
+C:\Users\201\Desktop\Projekt 1 WPF\WPF1\WpfApp1\WpfApp1\obj\Debug\net10.0-windows\WpfApp1_MarkupCompile.cache
+C:\Users\201\Desktop\Projekt 1 WPF\WPF1\WpfApp1\WpfApp1\obj\Debug\net10.0-windows\WpfApp1_MarkupCompile.lref
+C:\Users\201\Desktop\Projekt 1 WPF\WPF1\WpfApp1\WpfApp1\obj\Debug\net10.0-windows\MainWindow.baml
+C:\Users\201\Desktop\Projekt 1 WPF\WPF1\WpfApp1\WpfApp1\obj\Debug\net10.0-windows\WpfApp1.g.resources
+C:\Users\201\Desktop\Projekt 1 WPF\WPF1\WpfApp1\WpfApp1\obj\Debug\net10.0-windows\WpfApp1.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\201\Desktop\Projekt 1 WPF\WPF1\WpfApp1\WpfApp1\obj\Debug\net10.0-windows\WpfApp1.AssemblyInfoInputs.cache
+C:\Users\201\Desktop\Projekt 1 WPF\WPF1\WpfApp1\WpfApp1\obj\Debug\net10.0-windows\WpfApp1.AssemblyInfo.vb
+C:\Users\201\Desktop\Projekt 1 WPF\WPF1\WpfApp1\WpfApp1\obj\Debug\net10.0-windows\WpfApp1.vbproj.CoreCompileInputs.cache
+C:\Users\201\Desktop\Projekt 1 WPF\WPF1\WpfApp1\WpfApp1\obj\Debug\net10.0-windows\WpfApp1.dll
+C:\Users\201\Desktop\Projekt 1 WPF\WPF1\WpfApp1\WpfApp1\obj\Debug\net10.0-windows\refint\WpfApp1.dll
+C:\Users\201\Desktop\Projekt 1 WPF\WPF1\WpfApp1\WpfApp1\obj\Debug\net10.0-windows\WpfApp1.pdb
+C:\Users\201\Desktop\Projekt 1 WPF\WPF1\WpfApp1\WpfApp1\obj\Debug\net10.0-windows\WpfApp1.genruntimeconfig.cache
+C:\Users\201\Desktop\Projekt 1 WPF\WPF1\WpfApp1\WpfApp1\obj\Debug\net10.0-windows\ref\WpfApp1.dll
+C:\Users\201\Desktop\Projekt 1 WPF\WPF1\WpfApp1\WpfApp1\obj\Debug\net10.0-windows\WpfApp1.vbproj.Up2Date
