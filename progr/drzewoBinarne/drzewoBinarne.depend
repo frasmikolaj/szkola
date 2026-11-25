@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1795074044 source:c:\users\xxx\desktop\drzewobinarne\main.cpp
+	<iostream>
+	<fstream>
+
