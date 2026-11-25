@@ -1,0 +1,12 @@
+Plec: M
+Nick: 
+Wiek: 0
+Dysfunkcje: Nie
+Plec: Nie podano
+Nick: Targu
+Wiek: 2
+Dysfunkcje: Tak
+Plec: Nie podano
+Nick: Targu
+Wiek: 2
+Dysfunkcje: Tak
