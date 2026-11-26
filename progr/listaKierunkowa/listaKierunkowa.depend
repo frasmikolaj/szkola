@@ -1,0 +1,7 @@
+# depslib dependency file v1.0
+1795677175 source:c:\users\egzamin\desktop\listakierunkowa\main.cpp
+	<iostream>
+	<chrono>
+	<cstdlib>
+	<ctime>
+
